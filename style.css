@@ -5,6 +5,7 @@ body {
 
 li {
     list-style-type: none;
+    text-decoration:none;
 }
 
 header {
@@ -16,16 +17,17 @@ header {
 }
 
 header ul li{
-    display:inline-block;
     font-family: 'Oswald', sans-serif;
-    width:32%;
+    width:23%;
     text-align: center;
     color:grey;
-    margin-top: 100px;
+    margin: 100px 5px 0px 5px;
+    display:inline-block;
 }
 
 header a {
     color:grey;
+    text-decoration:none;
 }
 
 header a:hover{
@@ -33,13 +35,13 @@ header a:hover{
 }
 
 .moi {
-    border-radius:205px;
+    border-radius:50%;
     margin-top: -80px;
     margin-bottom: -80px;
     margin-right:350px;
     margin-left:350px;
     width:160px;
-    height: 160px;   
+    height: 160px; 
 }
 
 footer {
@@ -59,6 +61,23 @@ footer a {
 
 }
 
+.hire {
+    padding: 0px;
+    margin:30px 350px 30px 350px;
+}
+
+
+.infos { 
+    border-style: dashed;
+    border-color: pink;
+    font-size: 28px;
+    color:grey;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    margin: 50px 85px 50px 85px;
+    
+}
+
 p { 
     
     border-style: dashed;
@@ -70,12 +89,6 @@ p {
     margin: 0px 85px 0px 85px;
 }
 
-
-p2 { 
-    font-size:30px;
-    text-align:center;
-    color:grey;
-}
 
 h1 { 
     text-align: center;
@@ -90,20 +103,13 @@ h2 {
      text-align: center
 }
 
-.hire {
-    padding: 0px;
-    margin-top:30px;
-    margin-left: 350px;
-    margin-right:350px;
-    margin-bottom: 120px;
-}
-
 .nom {
     margin:-10px;
     padding-bottom:0px;
     padding-left: 4px;
+    padding-right: 4px;
     margin-left: 130px;
-    margin-right:90px;
+    margin-right:130px;
     font-size: 25px;  
     border-bottom: 5px solid pink;
 }
@@ -111,8 +117,9 @@ h2 {
 .statut { 
     margin:-50px;
     padding-bottom:-100px;
+    padding-left:90px;
     margin-top:10px;
-    margin-left:550px;
+    margin-left:650px;
     font-size: 25px;    
 }
     
@@ -147,40 +154,74 @@ h2 {
 .langues {
     background-image: url(images/tissu.jpg);
     color:grey;
-    text-align:center;
     border-style: dashed;
     border-color:pink;
     border-radius:8px;
+    display: inline-block;
     padding: 10px 40px 10px 40px;
-    margin: 0px 85px 0px 85px;
 }
 
 .informatique {
     background-image: url(images/tissu.jpg);
     color:grey;
-    text-align:center;
     border-style: dashed;
     border-color:pink;
     border-radius:8px;
-    padding: 10px 40px 10px 40px;
+    display: inline-block;
+    padding: 0px 40px 0px 40px;
     margin: 0px 85px 0px 85px;
+
 }
 
 .cercle-competence{
     width:10px;
     height:10px;
-    background-color: red;
+    background-color: grey;
     display: inline-block;
+    border-radius:50%;
 }
 
 .cercle-competence.on{
-
+    background-color:pink;
 }
 
 .cercle-competence.off{
+background-color:grey;
 }
 
 .informatique img{
     position:relative;
     top:7px;
+}
+
+.office {
+    display: inline-block;
+}
+
+
+.carte didentite {
+    position:relative;
+    
+} 
+
+.carte didentite img {
+    position:absolute;
+    display: inline-block;
+    left:0px;
+}
+
+.contact img {
+    padding-top: 50px;
+    display:inline-block;
+ 
+}
+
+.contact {
+    display:inline-block;
+    text-align:center;
+    align-content: center;
+    padding-left:50px;
+    padding-right: 50px;
+    margin-left: 200px;
+    margin-right:200px;
 }
