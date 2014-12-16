@@ -1,5 +1,8 @@
+/* CSS CONTINU */
+
+
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin:0px;
 }
 
@@ -8,9 +11,10 @@ li {
     text-decoration:none;
 }
 
+
 header {
-    padding-top: 100px;
-    padding-bottom: 10px;
+    padding-top:100px;
+    padding-bottom: 5px;
     margin-bottom:40px;
     background-image: url(images/tissu.jpg);
     text-decoration:none;
@@ -31,13 +35,13 @@ header a {
 }
 
 header a:hover{
-    color:pink;
+    color:#FEBFD2;
 }
 
 .moi {
     border-radius:50%;
     margin-top: -80px;
-    margin-bottom: -80px;
+    margin-bottom: -65px;
     margin-right:350px;
     margin-left:350px;
     width:160px;
@@ -46,8 +50,8 @@ header a:hover{
 
 footer {
     background-image: url(images/tissu.jpg);
-    margin-top:300px;
-    padding-top: 15px;
+    margin-top:940px;
+    padding-top:15px;
     padding-bottom:15px;
     text-decoration:none;    
 }
@@ -55,123 +59,253 @@ footer {
 footer a {
     display:inline-block;
     color:grey;
-    font-family: 'Oswald', sans-serif;
     width:32%;
     text-align:center;
 
 }
 
-.hire {
-    padding: 0px;
-    margin:30px 350px 30px 350px;
-}
-
-
-.infos { 
-    border-style: dashed;
-    border-color: pink;
-    font-size: 28px;
-    color:grey;
-    text-align: center;
-    padding: 10px 40px 10px 40px;
-    margin: 50px 85px 50px 85px;
-    
-}
-
-p { 
-    
-    border-style: dashed;
-    border-color: pink;
-    font-size: 28px;
-    color:grey;
-    text-align: center;
-    padding: 10px 40px 10px 40px;
-    margin: 0px 85px 0px 85px;
-}
-
-
-h1 { 
-    text-align: center;
-    font-size: 45px;
-    color:grey;
-}
-
-h2 { 
-     margin-left:25px;
-     margin-bottom: 30px;
-     padding-top: 50px;
-     text-align: center
-}
-
-.nom {
-    margin:-10px;
+#nom {
+    margin-top:-10px;
     padding-bottom:0px;
     padding-left: 4px;
-    padding-right: 4px;
-    margin-left: 130px;
-    margin-right:130px;
-    font-size: 25px;  
-    border-bottom: 5px solid pink;
+    padding-right: -4px;
+    margin-left: 105px;
+    margin-right:105px;
+    font-size: 22px;  
+    border-bottom: 4px solid #FEBFD2;
 }
 
-.statut { 
-    margin:-50px;
+#statut { 
+    margin:-55px;
     padding-bottom:-100px;
-    padding-left:90px;
-    margin-top:10px;
-    margin-left:650px;
-    font-size: 25px;    
+    margin-top:3px;
+    margin-left:615px;
+    font-size: 18px;    
+}
+  
+
+
+/* Page HOME */ 
+
+.nom{
+    margin:110px 300px 20px -185px;
+    width:155px;
+    height:150px;
+    border-radius:50%;
+    background-color:#FEBFD2;
+    color:white;
+    text-align:center;
+    font-size:16px;
+    overflow:hidden;
+    line-height:140px;
+    
+}
+
+.naissance {
+    margin:0px;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-color:#FEBFD2;
+    color:white;
+    text-align:center;
+    font-size:16px;
+    overflow:hidden;
+
+}
+
+.naissance.multi-line{
+    padding-top:42px;
+    padding-right: 20px;
+    padding-left7px;
+    height:150px;
+}
+
+.ville {
+    margin:20px -185px 20px 300px;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-color:#FEBFD2;
+    color:white;
+    text-align:center;
+    font-size:16px;
+    overflow:hidden;
+    line-height:140px;
 }
     
-. details {
-    color:pink;
-    padding-top:0px;
-}
 
 
-.formation { 
-    background-image: url(images/tissu.jpg);
-    color:grey;
-    text-align:center;
-    border-style: dashed;
-    border-color:pink;
-    border-radius:8px;
-    padding: 10px 40px 10px 40px;
-    margin: 0px 85px 0px 85px;
-}
 
-.parcours {
-    background-image: url(images/tissumodif.jpg);
-    text-align:center;
-    border-style: dashed;
-    border-color:pink;
-    border-radius:8px;
-    padding: 10px 40px 10px 40px;
-    margin: 0px 85px 0px 85px;
-}
+
+/* Page Compétence */ 
+
+.diplome {
+    margin: 50px 40px 70px 40px;
     
+}
+
+.titrediplome {
+    margin: 50px 20px 50px 20px; 
+    padding-bottom: 8px;
+    border-bottom: 4px solid #FEBFD2;
+}
+
+.cercle1{
+    margin:10px 20px 10px 180px;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background-color:#FD6C9E;
+    color:white;
+    text-align:center;
+    font-size:14px;
+    overflow:hidden;
+    padding-right: 20px;
+    padding-left:-7px; 
+    float:left;
+    
+}
+
+.cercle1.multi-line{
+    margin:10px;
+    line-height:15px;
+    padding-top:60px;
+    padding-right: 20px;
+    padding-left:4px;
+    height:120px;
+}
+
+
+.cercle2{
+    margin:10px 180px 10px 20px;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background-color:#FEBFD2;
+    color:white;
+    text-align:center;
+    font-size:14px;
+    overflow:hidden;
+    padding-right: 20px;
+    padding-left:-7px;  
+    float:right;
+
+}
+
+.cercle2.multi-line{
+    margin:10px;
+    line-height:15px;
+    padding-top:50px;
+    padding-right: 20px;
+    padding-left:-7px;
+    height:120px;
+    float:left;
+}
+
+
+
+
+/* Expériences */
+
+.parcours { 
+    margin: 50px 40px 70px 40px; 
+}
+
+.titreparcours {
+    margin: 300px 20px 50px 20px; 
+    padding-bottom: 8px;
+    border-bottom: 4px solid #FEBFD2;
+}
+
+.cercle3{
+    margin:10px 20px 10px 180px;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background-color:#9E9E9E;
+    color:white;
+    text-align:center;
+    font-size:14px;
+    overflow:hidden;
+    padding-right: 20px;
+    padding-left:-7px; 
+    float:left;
+}
+
+.cercle3.multi-line{
+    margin:10px;
+    line-height:15px;
+    padding-top:52px;
+    padding-right: 20px;
+    padding-left:-7px;
+    height:120px;
+}
+
+
+.cercle3s{
+    margin:10px 180px 10px 20px;
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background-color:#D3D3D3;
+    color:white;
+    text-align:center;
+    font-size:14px;
+    overflow:hidden;
+    padding-right: 20px;
+    padding-left:-7px;  
+    float:right;
+}
+
+.cercle3s.multi-line{
+    margin:10px;
+    line-height:15px;
+    padding-top:60px;
+    padding-right: 20px;
+    padding-left:-7px;
+    height:120px;
+    float:left;
+}
+
+
+
+/* Langues */
+
+.titrelangues {
+    margin: 1100px 20px 50px 20px; 
+    padding-bottom: 8px;
+    border-bottom: 4px solid #FEBFD2;
+}
 
 .langues {
-    background-image: url(images/tissu.jpg);
-    color:grey;
-    border-style: dashed;
-    border-color:pink;
-    border-radius:8px;
-    display: inline-block;
-    padding: 10px 40px 10px 40px;
+    margin: 50px 40px 50px 40px;  
 }
 
-.informatique {
-    background-image: url(images/tissu.jpg);
-    color:grey;
-    border-style: dashed;
-    border-color:pink;
-    border-radius:8px;
-    display: inline-block;
-    padding: 0px 40px 0px 40px;
-    margin: 0px 85px 0px 85px;
 
+
+/* Informatiques */
+
+.titreinformatique {
+    margin: 500px 20px 50px 20px; 
+    padding-bottom: 8px;
+    border-bottom: 4px solid #FEBFD2;
+    
 }
+.packinfo1 {
+    margin: 10px 100px 50px 100px;
+    padding:10px 30px 10px 30px;
+    border: dotted 2px pink;
+    float: left;   
+}
+
+.packinfo2 { 
+    margin: 10px 100px 50px 100px;
+    padding:10px 30px 10px 30px;
+    border: dotted 2px pink;  
+    float: right;
+}
+
 
 .cercle-competence{
     width:10px;
@@ -191,37 +325,97 @@ background-color:grey;
 
 .informatique img{
     position:relative;
-    top:7px;
-}
-
-.office {
-    display: inline-block;
+    top:8px;
 }
 
 
-.carte didentite {
-    position:relative;
+
+/* Loisirs */
+
+.titrecinteret {
+    margin: 290px 20px 50px 20px; 
+    padding-bottom: 8px;
+    border-bottom: 4px solid #FEBFD2;
     
-} 
-
-.carte didentite img {
-    position:absolute;
-    display: inline-block;
-    left:0px;
 }
 
-.contact img {
-    padding-top: 50px;
-    display:inline-block;
- 
+.cinteret img {
+    padding-right: 30px;
+    padding-left:30px; 
 }
 
-.contact {
-    display:inline-block;
-    text-align:center;
-    align-content: center;
-    padding-left:50px;
-    padding-right: 50px;
-    margin-left: 200px;
-    margin-right:200px;
+.cinteret {
+    margin: 10px 50px 10px 50px;
+    padding:10px 30px 10px 30px;
+    border: dotted 2px pink;
 }
+
+
+
+
+
+
+/* Page Portefolio */
+
+.spiders img{
+    margin:30px 60px 90px 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px dotted pink;
+}
+
+
+.montage {
+    margin:30px 45px 30px 45px;
+}
+
+
+
+
+/* Page Contact */ 
+
+
+.situation {
+    display: block;
+    border: 2px dotted pink;
+    font-size:25px;
+    text-align: right;
+    margin:90px 230px 90px 230px;
+    padding: 80px 50px 85px 50px;
+}
+
+.situation img { 
+    float: left;
+    margin: -25px 0px 10px 5px;
+}
+
+
+.appel {
+    display: block;
+    border: 2px dotted pink;
+    font-size:25px;
+    text-align: right;
+    margin:90px 230px 90px 230px;
+    padding: 80px 50px 85px 50px;
+}
+
+.appel img { 
+    float: left;  
+    margin: -25px 0px 10px 5px;
+}
+
+
+.email {
+    display: block;
+    border: 2px dotted pink;
+    font-size:25px;
+    text-align: right;
+    margin:90px 230px 90px 230px;
+    padding: 80px 50px 85px 50px;
+}
+
+.email img { 
+    float: left;
+    margin: -25px 0px 10px 5px;
+}
+
