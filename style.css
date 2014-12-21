@@ -82,7 +82,7 @@ footer a {
     margin-top:3px;
     font-size: 18px;
     text-align: right;
-    padding-right::;px;
+    padding-right:50px;
 }
   
 
@@ -142,19 +142,23 @@ footer a {
 
 /* Page Compétence */ 
 
-.diplome {
-    margin: 50px 40px 70px 40px;
-    
-}
-
 .titrediplome {
     margin: 50px 20px 50px 20px; 
     padding-bottom: 8px;
     border-bottom: 4px solid #FEBFD2;
 }
 
-.cercle1{
-    margin:10px 90px 10px 180px;
+
+.diplome {
+    display:block;
+    color:white;
+    text-align: center;
+    font-size:14px;
+    
+}
+
+.cercle1 {
+    margin-right: 40px;
     width:180px;
     height:180px;
     border-radius:50%;
@@ -164,21 +168,21 @@ footer a {
     font-size:14px;
     overflow:hidden;
     padding-right: 20px;
-    padding-left:-9px;  
     display: inline-block;
-    
 }
 
-.cercle1.multi-line{
+
+.cercle1.multi-line {
     margin:10px;
-    line-height:15px;
+    line-height:20px;
     padding-top:60px;
-    height:120px;
+    height:120px;  
 }
-
-
+    
+      
+    
 .cercle2{
-    margin:10px 90px 10px 100px;
+    margin-left: 40px;
     width:180px;
     height:180px;
     border-radius:50%;
@@ -188,7 +192,6 @@ footer a {
     font-size:14px;
     overflow:hidden;
     padding-right: 20px;
-    padding-left:-7px;  
     display: inline-block;
 }
 
@@ -199,9 +202,6 @@ footer a {
     height:120px;
 }
 
-
-
-
 /* Expériences */
 
 .parcours { 
@@ -209,7 +209,7 @@ footer a {
 }
 
 .titreparcours {
-    margin: 300px 20px 50px 20px; 
+    margin: 50px 20px 50px 20px; 
     padding-bottom: 8px;
     border-bottom: 4px solid #FEBFD2;
 }
@@ -225,7 +225,6 @@ footer a {
     font-size:14px;
     overflow:hidden;
     padding-right: 20px;
-    padding-left:-7px; 
 }
 
 .cercle3.multi-line{
@@ -233,7 +232,6 @@ footer a {
     line-height:15px;
     padding-top:52px;
     padding-right: 20px;
-    padding-left:-7px;
     height:120px;
 }
 
@@ -249,7 +247,6 @@ footer a {
     font-size:14px;
     overflow:hidden;
     padding-right: 20px;
-    padding-left:-7px;  
 }
 
 .cercle3s.multi-line{
@@ -257,7 +254,6 @@ footer a {
     line-height:15px;
     padding-top:60px;
     padding-right: 20px;
-    padding-left:-7px;
     height:120px;
 }
 
@@ -266,13 +262,16 @@ footer a {
 /* Langues */
 
 .titrelangues {
-    margin: 1100px 20px 50px 20px; 
+    margin: 50px 20px 50px 20px; 
     padding-bottom: 8px;
     border-bottom: 4px solid #FEBFD2;
 }
 
 .langues {
-    margin: 50px 40px 50px 40px;  
+    display:block;
+    color:white;
+    text-align: center;
+    font-size:14px;
 }
 
 
@@ -280,7 +279,7 @@ footer a {
 /* Informatiques */
 
 .titreinformatique {
-    margin: 500px 20px 50px 20px; 
+    margin: 50px 20px 50px 20px; 
     padding-bottom: 8px;
     border-bottom: 4px solid #FEBFD2;
     
