@@ -205,7 +205,10 @@ footer a {
 /* Expériences */
 
 .parcours { 
-    margin: 50px 40px 70px 40px; 
+    display:block;
+    color:white;
+    text-align: center;
+    font-size:14px;
 }
 
 .titreparcours {
@@ -215,7 +218,7 @@ footer a {
 }
 
 .cercle3{
-    margin:10px 20px 10px 180px;
+    margin-right: 40px;
     width:180px;
     height:180px;
     border-radius:50%;
@@ -225,19 +228,19 @@ footer a {
     font-size:14px;
     overflow:hidden;
     padding-right: 20px;
+    display: inline-block;
 }
 
 .cercle3.multi-line{
     margin:10px;
-    line-height:15px;
-    padding-top:52px;
-    padding-right: 20px;
-    height:120px;
+    line-height:20px;
+    padding-top:40px;
+    height:120px;  
 }
 
 
-.cercle3s{
-    margin:10px 180px 10px 20px;
+.cercle4{
+    margin-left:0px;
     width:180px;
     height:180px;
     border-radius:50%;
@@ -247,13 +250,13 @@ footer a {
     font-size:14px;
     overflow:hidden;
     padding-right: 20px;
+    display: inline-block;
 }
 
-.cercle3s.multi-line{
+.cercle4.multi-line{
     margin:10px;
     line-height:15px;
-    padding-top:60px;
-    padding-right: 20px;
+    padding-top:55px;
     height:120px;
 }
 
@@ -284,6 +287,7 @@ footer a {
     border-bottom: 4px solid #FEBFD2;
     
 }
+
 .packinfo1 {
     margin: 10px 100px 50px 100px;
     padding:10px 30px 10px 30px;
@@ -317,7 +321,7 @@ background-color:grey;
 
 .informatique img{
     position:relative;
-    top:8px;
+    top:7px;
 }
 
 
